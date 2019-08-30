@@ -1,0 +1,7 @@
+version: "2"
+domain: cloudnativejp
+repo: cloudnativejp
+resources:
+- group: servers
+  version: v1beta1
+  kind: WebServer
